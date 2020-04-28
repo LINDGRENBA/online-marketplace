@@ -32,3 +32,16 @@ img {
   border: 1px solid black;
   color: #FFF;
 }
+
+.form-group {
+  margin: 30px;
+}
+
+.btn {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+h5 {
+  font-weight: bold;
+}
