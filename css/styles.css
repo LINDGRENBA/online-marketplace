@@ -45,3 +45,7 @@ img {
 h5 {
   font-weight: bold;
 }
+
+#reciept {
+  display: none;
+}
