@@ -6,7 +6,7 @@
 
 ## Description
 
-The purpose of this project is to use javascript, jQuery and forms to create an online marketplace for users to purchase items and then show the user a reciept and confirmation after they submit their order. This project is also a practice in proper organization of javascript into business logic and user interface logic.
+The purpose of this project is to use javascript, jQuery and forms to create an online marketplace for users to purchase items and then show the user a reciept and confirmation after they submit their order.
 
 ## Setup/Installation Requirements
 
@@ -17,7 +17,7 @@ The purpose of this project is to use javascript, jQuery and forms to create an 
 
 ## Known Bugs
 
-There are no known bugs at this time. 
+There are no known bugs at this time, however anticipate update to javascript to fine tune how input is gathered and returned in receipt div.
 
 ## Support and contact details
 
