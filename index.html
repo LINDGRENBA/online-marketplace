@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="js/jquery-3.5.0.js"></script>
+  <script src="js/scripts.js"></script>
+  <title>Document</title>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="row">
+        <div class="col-sm-6 image">
+          <img src="img/heart.jpg" alt="a heart decoration on the wall">
+          <h5>Photo by Debby Hudson on Unsplash</h5>
+        </div>
+        <div class="col-sm-6 header-info">        
+          <h1>Purchase your "I &hearts; Dr. Fauci" t-shirt</h1><br>
+          <p>Choose your color, t-shirt size and type, then hit submit to order your t-shirt</p>
+        </div>
+      </div>
+    </header>
+
+    <form /*action=""*/ id="order-shirt">
+
+      <div class="form-group">
+        <label for="name">Your full name:</label>
+        <input type="text" id="name" class="form-control">
+      </div>
+
+      <div class="form-group">
+        <label for="address">Your full address with street, city, state and zip:</label>
+        <input type="text" id="address" class="form-control">
+      </div>
+
+      <div class="form-group">
+        <label for="size">Select shirt size:</label>
+        <select class="form-control" name="shirt-size" id="size">
+          <option value="sm">Small</option>
+          <option value="md">Medium</option>
+          <option value="lg">Large</option>
+        </select>
+      </div>
+
+      <div class="form-group">
+        <label for="color">Select shirt color:</label>
+        <select class="form-control" name="shirt-color" id="color">
+          <option class="white" value="white">White</option>
+          <option class="grey" value="grey">Grey</option>
+          <option class="dark-blue" value="dark-blue">Dark Blue</option>
+        </select>
+      </div>
+
+      <div class="form-group">
+        <h5>Please select your shirt style.</h5>
+        <div class="radio">
+          <label for="v-neck">
+            <input type="text" id="v-neck" class="form-control" name="style" value="v-neck">
+            V-neck
+          </label>
+          <div class="radio">
+            <label for="polo">
+              <input type="text" id="polo" class="form-control" name="style" value="polo">
+              Polo
+            </label>
+        </div>
+        <div class="radio">
+          <label for="sleeveless">
+            <input type="text" id="sleeveless" class="form-control" name="style" value="sleeveless">
+            Sleeveless
+          </label>
+      </div>
+
+      <button class="btn" type="submit">Submit Order</button>
+    </form>
+
+
+    <div id="recipt">
+      <p>Thank you <span class="name"></span>. Please review your receipt below to ensure that your order details are correct.</p>
+      <ul>
+        <li>Shipping Address: <span class="address"></span></li>
+        <li>Shirt Size: <span class="size"></span></li>
+        <li>Shirt Color: <span class="color"></span></li>
+        <li>Shirt Style: <span class="style"></span></li>
+      </ul>
+    </div>
+
+    
+    
+    
+  </div>
+  
+</body>
+</html>
+
+<!-- Create a website with a form on it to take the user's full name and address as if they were ordering a product from you. After they submit the form you should show them a receipt. Thank them for purchasing whatever it is you are selling, and be sure to use their full name. Then, reprint their address as a confirmation of shipping details.
+
+Add CSS to your online store to make it look more professional, or inviting. Or add a stylistic theme that matches whatever your store is selling.
+
+Collect additional information from the user in your form. For instance, if your online marketplace sells jewelry, include form fields denoting whether they're ordering a bracelet, necklace, or earrings. Then, make sure to include this extra information in the receipt you display back to the user. -->

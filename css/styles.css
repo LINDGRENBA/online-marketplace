@@ -1,0 +1,34 @@
+
+header {
+  background-color: pink;
+}
+
+img {
+  width: 75%;
+  height: auto;
+  margin: 20px auto;
+  border-radius: 5px;
+}
+
+.image, .header-info {
+  text-align: center;
+}
+
+/* SHIRT COLORS */
+
+.white {
+  background-color: #FFF;
+  border: 1px solid black;
+}
+
+.grey {
+  background-color: grey;
+  border: 1px solid black;
+  color: #FFF;
+}
+
+.dark-blue {
+  background-color: darkslateblue;
+  border: 1px solid black;
+  color: #FFF;
+}
